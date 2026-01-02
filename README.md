@@ -97,8 +97,17 @@ West gear Retail shop generated the highest sales and operating profit followed 
 
 ## INSIGHTS
 
++ Overall Performance: Total sales amounted to $120M with a total operating profit of $33M from 2M units sold, indicating a healthy average price per unit of $45.
++ Regional Dominance: The West region generated the highest sales by a significant margin ($36M), followed by the Northeast ($25M).
++ West Gear (Top Retailer): is the leading retailer, contributing the most to both total sales ($32M) and units sold (0.60M).
++ Men's Street Footwear : is the top-selling product (27.7M), closely followed by Women's Apparel (23.8M).
++ Washington is the Geographic Hotspot: had the highest sales ($3.22M), with Virginia coming in second ($3.07M).
 
+## RECOMMENDATIONS
 
-
++ Capitalize on Regional Success: Invest further in marketing and inventory in the West and Northeast regions to maintain sales momentum.
++ Optimize Product Mix: Ensure consistent stock availability for Men's Street Footwear and Women's Apparel, as they are the primary revenue drivers.
++ Strengthen Retailer Partnerships: Collaborate with West Gear to explore opportunities for increased market penetration and potentially incentivize other retailers like Amazon and Walmart to boost their sales.
++ Targeted State Campaigns: Focus marketing efforts on top-performing states such as Washington and Virginia to maximize local market potential.
 
 
