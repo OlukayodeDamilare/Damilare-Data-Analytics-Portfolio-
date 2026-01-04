@@ -92,7 +92,8 @@ West gear Retail shop generated the highest sales and operating profit followed 
 ![Total operating profit and Total sales per each retailer](https://github.com/user-attachments/assets/c9842b9d-078d-4c50-8978-9972bff3423b)
 
 ## DATA VISUALIZATION
-![Adidas Dashboard image](https://github.com/user-attachments/assets/62eeaefc-03fe-413b-8a6c-5bda5552cba9)
+![NEW ADIDAS DASHBOARD](https://github.com/user-attachments/assets/e357d6c2-5afe-4711-9ee5-f6c496dda4de)
+
 
 
 ## INSIGHTS
