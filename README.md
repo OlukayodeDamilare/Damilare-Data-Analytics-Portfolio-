@@ -1,114 +1,150 @@
-# Damilare-Adidas Sales Analysis
+Adidas Sales Analysis (Power BI)
 
-## Overview
-To provide actionable insights from Adidas sales data by tracking trends, KPIs, and top products to support smarter business decision.
----
+Executive Summary
 
-  ## Introduction
-The project explores and simulates a real world sales data to analyze revenue trends, product performance and regional sales distribution using data cleaning, transformation and visualization techniques, the datasets was converted into meaningful insights through an interactive dashboard.
+This project analyzes Adidas sales performance across products, regions, retailers, and time to uncover revenue drivers, profitability patterns, and growth opportunities. Using Power BI, the analysis transforms raw sales data into an interactive dashboard that supports data-driven business decisions.
 
-## Tools
+⸻
 
-+ Microsoft Power Query: Used for loading and cleaning the datasets into a suitable format for analysis.
-+ Power BI: Used for addition of measures and column and data visualizations.
+Business Context
 
-## Problem statement
+Retail and consumer brands rely on sales analytics to understand what products sell best, where demand is strongest, and which channels drive profitability. This project simulates a real-world sales scenario to evaluate Adidas’ performance and provide actionable insights for strategic planning.
 
-+ Show the total revenue,operating profit and unit solds
-+ Identify top selling products
-+ Identify the top 5 state with highest revenue
-+ Identify the region that generated the highest revenue
-+ See sales trend over time.
+⸻
 
+Objectives
 
-## Power BI concepts applied:
-DAX Concepts: Calculated column, measures, calender table created
-Data Modelling: Star schema
+The analysis aims to:
+	•	Track total revenue, operating profit, and units sold
+	•	Identify top-performing products and retailers
+	•	Determine high-performing regions and states
+	•	Analyze sales trends over time
+	•	Support better inventory, pricing, and marketing decisions
 
-## Data Sourcing: 
-The data was given by the company in excel format, i downloaded the csv files and extracted it into power BI for cleaning, analysis and visualization.
+⸻
 
-## Datasets
+Key Business Questions
+	•	What is the total revenue, operating profit, and volume of units sold?
+	•	Which products generate the highest sales?
+	•	Which states and regions contribute most to revenue?
+	•	How do sales trend across months?
+	•	Which retailers drive the most revenue and profit?
 
-## Features:
-+ Sales ID
-+ Retailer
-+ Retailer ID
-+ Invoice Date
-+ Region
-+ State
-+ City
-+ Product
-+ Price Per Unit
-+ Unit Solds
-+ Total Sales
-+ Operating Profit.
-![DATASETS](https://github.com/user-attachments/assets/0a61d02b-1273-46f9-88c6-5ebc06e38175)
+⸻
 
-## Data preparation before visualiztion
+Dataset Overview
+	•	Source: Simulated Adidas sales data (Excel / CSV format)
+	•	Records: Sales transactions across products, retailers, and regions
+	•	Key Fields:
+	•	Sales ID
+	•	Retailer / Retailer ID
+	•	Invoice Date
+	•	Region, State, City
+	•	Product
+	•	Price per Unit
+	•	Units Sold
+	•	Total Sales
+	•	Operating Profit
 
-A Date table was created to enhance visualization to see sales trend over time.
-![New Date table created](https://github.com/user-attachments/assets/c96db1f9-fa49-476c-ab2f-b263d37e3d20)
+⸻
 
+Tools & Technologies
+	•	Power BI
+	•	Data modeling (Star Schema)
+	•	DAX measures & calculated columns
+	•	Interactive dashboards
+	•	Power Query
+	•	Data cleaning and transformation
+	•	Data type validation and formatting
 
-A relationship (Star Schema) was created to enhance the vusializations and have accurate result
-## Objective
-+ To combine data from multiple tables to help power BI understand how the table are connected
-+ To enable accurate visuals
-+ To avoid data duplication
-+ To support advanced calcutions (DAX).
-![A relationship was created to enhance the visualization](https://github.com/user-attachments/assets/ec71a42e-af2b-4919-ac40-655c0432698d)
+⸻
 
-## DATA ANALYSIS
-  # Top selling Products
-  + Men's street footwear generated the highest revenue with 27.7M in Sales,
-    while Women's athletic footwear had the lowest revenue with 14.3M in sales due to everyday and occasion based use, men's street footwear(sneakers, casual shoes is worn daily for work or casual events while women's athletic footwear is purchased for specific activities like workouts or sport thereby reducing purchase frequency.
-    
-    ![Top selling products](https://github.com/user-attachments/assets/8b4269d9-ec82-4acd-a9e0-4e28b7671a2e)
+Data Preparation & Modeling
+	•	Cleaned and standardized raw CSV files using Power Query
+	•	Created a Date table to support time-based analysis
+	•	Built a Star Schema data model to:
+	•	Enable accurate relationships
+	•	Avoid duplication
+	•	Support advanced DAX calculations
 
-    # Top 5 states with highest revenue
-    + Washington generated the highest sales with 3.2M in Sales which is highesr than other locations due to strong urban & tech-driven economy,
-       washington (especially seattle) has high concentration of tech companies and high income earners which leads to higher disposable income and willingness to spend more on premium and branded products.
+  Power BI Concepts Applied
+	•	DAX measures and calculated columns
+	•	Calendar (Date) table
+	•	Star schema data modeling
+	•	KPI cards and trend analysis
+	•	Drill-down and comparative visuals
 
-      
-![Top 5 states](https://github.com/user-attachments/assets/92f6976c-0210-4fa3-9a98-8ac6ae50eb2e)
+⸻
 
-   # Which region generated the highest revenue
-   West region (36.3M in Sales) generated the highest revenue followed by Northeast(25.1M in Sales) while Midwest generated the lowest revenue with 16.7M in Sales.
+Key Findings & Analysis
 
-   ![Which region generated the highest revenue](https://github.com/user-attachments/assets/af941d18-c8fa-4229-84ff-7da6a3617626)
+Product Performance
+	•	Men’s Street Footwear generated the highest revenue ($27.7M)
+	•	Women’s Athletic Footwear recorded the lowest revenue ($14.3M), likely due to more activity-specific usage patterns
 
-# Monthly Sales Trend
-July was our peak month in sales generating 12.5M in Revenue, this is because there is higher consumer spending due to mid-year bonuses, holidays and events and there's strong retail and online marketing during this period 
-- Seasonality + Promotions = Sales Spike.
-WHILE while march and february (respectively) had the lowest sales simply because consumers prioritize essentials expenses early in the year
-- Reduced consumer activities = Lower Sales Volume.
-  
-![Monthly sales trend](https://github.com/user-attachments/assets/2b5cc97e-d614-43cb-98f0-260acef88f57)
+Regional Performance
+	•	West Region led sales with $36.3M
+	•	Northeast followed with $25.1M
+	•	Midwest recorded the lowest revenue ($16.7M)
 
-# Total sales and Total operating profit by each retailer
-West gear Retail shop generated the highest sales and operating profit followed by foot locker retail shop, this is because they have better pricing control and fewer discounts while amazon had the lowest sales and operating profit because sales is spread across many third-party sellers thereby leading to higher operational and fulfilment cost so this greatly affect their operating profit.
+Geographic Insights
+	•	Washington was the top-performing state ($3.22M), followed by Virginia ($3.07M)
+	•	Higher sales are linked to urban concentration and higher disposable income
 
-![Total operating profit and Total sales per each retailer](https://github.com/user-attachments/assets/c9842b9d-078d-4c50-8978-9972bff3423b)
+Sales Trend Analysis
+	•	July recorded peak sales ($12.5M) driven by promotions, holidays, and increased consumer spending
+	•	February and March showed lower sales, reflecting reduced discretionary spending early in the year
 
-## DATA VISUALIZATION
-![NEW ADIDAS DASHBOARD](https://github.com/user-attachments/assets/e357d6c2-5afe-4711-9ee5-f6c496dda4de)
+Retailer Performance
+	•	West Gear generated the highest sales and operating profit
+	•	Foot Locker followed closely
+	•	Amazon showed lower operating profit due to higher fulfillment and third-party selling costs
 
+⸻
 
+Dashboard Preview
 
-## INSIGHTS
+Below is a snapshot of the interactive Power BI dashboard used in this analysis:
 
-+ Overall Performance: Total sales amounted to $120M with a total operating profit of $33M from 2M units sold, indicating a healthy average price per unit of $45.
-+ Regional Dominance: The West region generated the highest sales by a significant margin ($36M), followed by the Northeast ($25M).
-+ West Gear (Top Retailer): is the leading retailer, contributing the most to both total sales ($32M) and units sold (0.60M).
-+ Men's Street Footwear : is the top-selling product (27.7M), closely followed by Women's Apparel (23.8M).
-+ Washington is the Geographic Hotspot: had the highest sales ($3.22M), with Virginia coming in second ($3.07M).
+![ADIDAS DASHBOARD IMAGE ](https://github.com/user-attachments/assets/c4b9eba7-aece-4f79-80eb-395b4034f603)
 
-## RECOMMENDATIONS
+⸻
 
-+ Capitalize on Regional Success: Invest further in marketing and inventory in the West and Northeast regions to maintain sales momentum.
-+ Optimize Product Mix: Ensure consistent stock availability for Men's Street Footwear and Women's Apparel, as they are the primary revenue drivers.
-+ Strengthen Retailer Partnerships: Collaborate with West Gear to explore opportunities for increased market penetration and potentially incentivize other retailers like Amazon and Walmart to boost their sales.
-+ Targeted State Campaigns: Focus marketing efforts on top-performing states such as Washington and Virginia to maximize local market potential.
+Key Insights
+	•	Total sales reached $120M with $33M operating profit from 2M units sold
+	•	West region dominates overall revenue contribution
+	•	Men’s Street Footwear and Women’s Apparel are the strongest revenue drivers
+	•	Retailer performance varies significantly due to pricing and operational structures
 
+⸻
 
+Recommendations
+	•	Double down on high-performing regions (West & Northeast) with targeted inventory and marketing
+	•	Prioritize top-selling products to avoid stock-outs and lost revenue
+	•	Strengthen partnerships with high-performing retailers like West Gear
+	•	Improve underperforming channels by reviewing pricing and cost structures
+	•	Launch state-specific campaigns in top markets such as Washington and Virginia.
+
+⸻
+
+Assumptions & Limitations
+	•	Data is simulated and may not reflect real Adidas sales figures
+	•	Analysis does not include customer demographics or marketing spend
+	•	External economic or seasonal factors are inferred, not directly measured
+
+⸻
+
+Future Improvements
+
+With access to more data, this analysis could be extended by:
+	•	Integrating customer demographics and loyalty data
+	•	Analyzing promotion and discount effectiveness
+	•	Tracking long-term sales and profitability trends
+	•	Linking sales data to inventory and supply chain metrics
+
+⸻
+
+Call to Action
+
+Feedback and suggestions are welcome.
+I’m continuously improving my data analytics and dashboard design skills and open to collaboration or discussion.
