@@ -78,36 +78,20 @@ Key Fields:
 - Drill-down and comparative visuals
 
 ---
+# Key Metrics
+| Metric | Value |
+|------|------|
+| Total Sales | 120M |
+| Total Operating Profit | 33M |
+| Total Units Sold | 2M |
+| Average Price per Unit | 45 |
+| Best Performing Region | West (36M) |
+| Top Selling Product | Men’s Street Footwear (27.7M) |
 
-# Key Findings & Analysis
-
-- Product Performance:
-	•	Men’s Street Footwear generated the highest revenue ($27.7M)
-	•	Women’s Athletic Footwear recorded the lowest revenue ($14.3M), likely due to more activity-specific usage patterns
-
-- Regional Performance:
-	•	West Region led sales with $36.3M
-	•	Northeast followed with $25.1M
-	•	Midwest recorded the lowest revenue ($16.7M)
-
-- Geographic Insights:
-	•	Washington was the top-performing state ($3.22M), followed by Virginia ($3.07M)
-	•	Higher sales are linked to urban concentration and higher disposable income
-
-- Sales Trend Analysis:
-	•	July recorded peak sales ($12.5M) driven by promotions, holidays, and increased consumer spending
-	•	February and March showed lower sales, reflecting reduced discretionary spending early in the year
-
-- Retailer Performance:
-	•	West Gear generated the highest sales and operating profit
-	•	Foot Locker followed closely
-	•	Amazon showed lower operating profit due to higher fulfillment and third-party selling costs
-
----
 
 # Dashboard Preview
 
-Below is a snapshot of the interactive Power BI dashboard used in this analysis:
+Below is a snapshot of the interactive Power BI dashboard designed for this analysis:
 
 ![ADIDAS DASHBOARD IMAGE ](https://github.com/user-attachments/assets/c4b9eba7-aece-4f79-80eb-395b4034f603)
 
@@ -121,12 +105,38 @@ Below is a snapshot of the interactive Power BI dashboard used in this analysis:
 
 ---
 
+# Key Findings
+
+- Product Performance:
+	•	Men’s Street Footwear generated the highest revenue ($27.7M)
+	•	Women’s Athletic Footwear recorded the lowest revenue ($14.3M), likely due to more activity-specific usage patterns
+
+- Regional Performance:
+	•	West Region led sales with $36.3M
+	•	Northeast followed with $25.1M
+	•	Midwest recorded the lowest revenue ($16.7M)
+- Geographic Insights:
+	•	Washington was the top-performing state ($3.22M), followed by Virginia ($3.07M)
+	•	Higher sales are linked to urban concentration and higher disposable income
+
+- Sales Trend Analysis:
+	•	July recorded peak sales ($12.5M) driven by promotions, holidays, and increased consumer spending
+	•	February and March showed lower sales, reflecting reduced discretionary spending early in the year
+
+- Retailer Performance:
+	•	West Gear generated the highest sales and operating profit
+	•	Foot Locker followed closely
+	•	Amazon showed lower operating profit due to higher fulfillment and third-party selling costs
+
+
 # Recommendations
-- Double down on high-performing regions (West & Northeast) with targeted inventory and marketing
 - Prioritize top-selling products to avoid stock-outs and lost revenue
+- Double down on high-performing regions (West & Northeast) with targeted inventory and marketing
+- Launch state-specific campaigns in top markets such as Washington and Virginia
+- Leverage peak sales months as sales spikes appear mid-year and year-end. Launch major promotions, limited editions, and influencers
+  campaign during these high-performing months
 - Strengthen partnerships with high-performing retailers like West Gear
-- Improve underperforming channels by reviewing pricing and cost structures
-- Launch state-specific campaigns in top markets such as Washington and Virginia.
+- Improve underperforming channels by reviewing pricing and cost structures.
 
 ---
 
